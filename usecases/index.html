@@ -58,6 +58,25 @@
               <li><a href="../usecases/6">Corporate Communications</a></li>
             </ul>
           </li>
+          <li class="drop-down"><a href="../industries/">Industries</a>
+            <ul>
+              <li><a href="../industries/airlines">Airlines</a></li>
+              <li><a href="../industries/banking">Banking & Finance</a></li>
+              <li><a href="../industries/cardealership">Car Dealership</a></li>
+              <li><a href="../industries/cargo">Cargo & Logistics</a></li>
+              <li><a href="../industries/ecommerce">E-Commerce</a></li>
+              <li><a href="../industries/education">Education</a></li>
+              <li><a href="../industries/government">Government</a></li>
+              <li><a href="../industries/hospitals">Healthcare</a></li>
+              <li><a href="../industries/hotels">Hotels</a></li>
+              <li><a href="../industries/hr">Human Resources</a></li>
+              <li><a href="../industries/insurance">Insurance</a></li>
+              <li><a href="../industries/media">Media & Entertainment</a></li>
+              <li><a href="../industries/realestate">Real Estate</a></li>
+              <li><a href="../industries/retail">Retail & Merchandise</a></li>
+              <li><a href="../industries/sports">Sports & Recreation</a></li>
+            </ul>
+          </li>
           <li><a href="../#pricing">Pricing</a></li>
           <li class="contact-highlight"><a href="../#contact"><b>Contact Us!</b></a></li>
         </ul>
@@ -88,10 +107,10 @@
     
               <div class="testimonial-item">
                 <div class="row">
-                  <div class="col-md-3">
+                  <div class="col-md-4">
                     <img src="../img/usecase01.png" class="usecase-heroimg testimonial-img" alt="Hero Imgs">
                   </div>
-                  <div class="col-md-9">
+                  <div class="col-md-8">
                     <h3>Opening a new store?</h3>
                     <h4>Tell it to the world!</h4>
         
@@ -104,10 +123,10 @@
     
               <div class="testimonial-item">
                 <div class="row">
-                  <div class="col-md-3">
+                  <div class="col-md-4">
                     <img src="../img/usecase02.png" class="usecase-heroimg testimonial-img" alt="Hero Imgs">
                   </div>
-                  <div class="col-md-9">
+                  <div class="col-md-8">
                     <h3>In Case of Emergencies</h3>
                     <h4>Save Lives Thru SMS</h4>
         
@@ -120,10 +139,10 @@
     
               <div class="testimonial-item">
                 <div class="row">
-                  <div class="col-md-3">
+                  <div class="col-md-4">
                     <img src="../img/usecase04.png" class="usecase-heroimg testimonial-img" alt="Hero Imgs">
                   </div>
-                  <div class="col-md-9">
+                  <div class="col-md-8">
                     <h3>Setting up a small contact center?</h3>
                     <h4>Serve More Clients with IRIS</h4>
         
@@ -136,10 +155,10 @@
     
               <div class="testimonial-item">
                 <div class="row">
-                  <div class="col-md-3">
+                  <div class="col-md-4">
                     <img src="../img/usecase03.png" class="usecase-heroimg testimonial-img" alt="Hero Imgs">
                   </div>
-                  <div class="col-md-9">
+                  <div class="col-md-8">
                     <h3>Let your voice be heard!</h3>
                     <h4>Reach Out to Everyone</h4>
         
@@ -152,10 +171,10 @@
     
               <div class="testimonial-item">
                 <div class="row">
-                  <div class="col-md-3">
+                  <div class="col-md-4">
                     <img src="../img/usecase05.png" class="usecase-heroimg testimonial-img" alt="Hero Imgs">
                   </div>
-                  <div class="col-md-9">
+                  <div class="col-md-8">
                     <h3>IRIS as a Simple Reservation System</h3>
                     <h4>First-Text, First-Served</h4>
         
@@ -168,10 +187,10 @@
 
               <div class="testimonial-item">
                 <div class="row">
-                  <div class="col-md-3">
+                  <div class="col-md-4">
                     <img src="../img/usecase06.png" class="usecase-heroimg testimonial-img" alt="Hero Imgs">
                   </div>
-                  <div class="col-md-9">
+                  <div class="col-md-8">
                     <h3>Company Announcements Made Easy</h3>
                     <h4>HR & Corporate Communications</h4>
         
@@ -416,49 +435,23 @@
   <!--==========================
     Newsletter Section
   ============================-->
-  <section id="newsletter" class="newsletter text-center wow fadeInUp">
+  <div id="contact-us"></div>
+  <section id="newsletter" class="newsletter wow fadeInUp">
     <div class="overlay padd-section">
       <div class="container">
 
-        <div class="row justify-content-center" style="color:#FFF;">
+        <div class="row text-center" style="color:#FFF;">
           <div class="col-md-12">
             <h1>Interested in IRIS? Sign Up Now!</h1>
             <h4>We'll get in touch with you via email as soon as possible.</h4><br>
           </div>
-          <div class="col-md-9 col-lg-6">
-            <form class="form-inline" method="POST" action="#">
-
-              <input type="email" class="form-control " placeholder="Email Adress" name="email">
-              <button type="submit" class="btn btn-default">Subscribe</button>
-
-            </form>
-
-          </div>
         </div>
 
-      
-
-      </div>
-    </div>
-  </section>
-
-  <!--==========================
-    Contact Section
-  ============================-->
-  <section id="contact" class="whitebg">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <h2 class="section-title">CONTACT US</h2>
-          <p>Schedule a <b>FREE</b> demo with us now!</p>
-        </div>
-      </div>
-
-      <div class="row justify-content-center">
+        <div class="row justify-content-center">
 
                 <!--Grid column-->
                 <div class="col-md-6 col-xl-7">
-                    <form id ="contact-form" name="contact-form" action="./contactform/mail.php" method="POST"  onsubmit="return validateForm()" >
+                    <form id="contact-form" name="contact-form" action="../contactform/mail.php" method="POST" onsubmit="return validateForm()">
 
                         <!--Grid row-->
                         <div class="row">
@@ -510,7 +503,7 @@
 
                                 <div class="md-form">
                                   <label for="message">Your message</label>
-                                    <textarea type="text" id="message" name="message" class="md-textarea"></textarea>
+                                    <textarea type="text" id="message" name="message" class="md-textarea formG01"></textarea>
                                     
                                 </div>
 
@@ -548,6 +541,10 @@
             
 
       </div>
+
+      
+
+      </div>
     </div>
   </section>
 
@@ -567,10 +564,10 @@
           <div class="col-lg-4 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><a href="../#home">Home</a></li>
+              <li><a href="../">Home</a></li>
               <li><a href="../#about">About us</a></li>
-              <li><a href="../#features">Features</a></li>
-              <li><a href="../#usecase">Use Cases</a></li>
+              <li><a href="../features">Features</a></li>
+              <li><a href="../usecases">Use Cases</a></li>
               <li><a href="../#pricing">Pricing</a></li>
               <li><a href="../#contact">Contact Us</a></li>
             </ul>
@@ -615,7 +612,7 @@
   <script src="../lib/wow/wow.min.js"></script>
 
   <!-- Contact Form JavaScript File -->
-  <script src="../contactform/contactform2.js"></script>
+  <script src="../contactform/contactform2b.js"></script>
 
   <!-- Template Main Javascript File -->
   <script src="../js/main.js"></script>
