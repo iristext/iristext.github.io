@@ -1095,4 +1095,18 @@ z-index: -1;
 	background: #FFF;
 }
 
+.owl-carousel .owl-item img {
+  border-radius: 50%;
+}
 
+.owl-carousel .owl-item .testimonial-item h4 {
+  color: #671d89;
+  margin: 0;
+}
+
+.G01-carousel-front {
+  border: 1px solid #DDD;
+  padding:2em;
+  border-radius:2em;
+  box-shadow: 0 3px 3px #EEE;
+}
