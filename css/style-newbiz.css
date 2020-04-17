@@ -1110,3 +1110,13 @@ z-index: -1;
   border-radius:2em;
   box-shadow: 0 3px 3px #EEE;
 }
+
+
+#hero .features {
+  width: 100%;
+}
+
+#hero .features td {
+  width: 33%;
+  vertical-align: top;
+}
